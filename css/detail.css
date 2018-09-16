@@ -1,0 +1,352 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-09 09:34:10
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-12 19:33:47
+*/
+*{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		box-sizing: border-box;
+		font-family:"微软雅黑","苹方";
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+}
+
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 1.04rem;
+	background: #00b7ee;
+	/* display: flex; */
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* justify-content: center; */
+
+}
+header .header-main{
+	width: 100%;
+	height:0.72rem;
+	/* background: pink; */
+	/* display: flex;
+	justify-content: center; */
+	padding: 0 0.24rem;
+}
+header .header-main img{
+	width: 0.32rem;
+	height: 0.32rem;
+	float: left;
+	/* margin-top: 0.3rem; */
+}
+header .header-main .top1{
+	width: 7.02rem;
+	height: 0.72rem;
+    /* padding: 0 0.24rem; */
+    /* background: blue; */
+    background: #00b7ee;
+    display: flex;
+    flex-direction: row;
+}
+header .header-main .top1 .top-return{
+	width:0.41rem ;
+	height: 0.72rem;
+	/* background: red; */
+	background: #00b7ee;
+	margin-top:0.3rem;
+	/* float: left; */
+}
+
+/* header .header-main .top1 .top-search{
+    width:0.41rem ;
+	height: 0.72rem;
+	
+	background:#00b7ee;
+	
+	
+} */
+header .header-main .top1 .sp{
+	width: calc(100% - 0.15rem);
+	height: 100%;
+	/* background: yellow; */
+	/* margin-top: 0.2rem; */
+}
+header .header-main .top1 .sp img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	/* margin-top: 0.4rem; */
+
+}
+header .header-main .top1 .top-link{
+	width:0.41rem ;
+	height: 0.72rem;
+	/* background: red; */
+	margin-top:0.3rem;
+	/* background:#00b7ee; */
+	/* float: left; */
+}
+/* 头部结束 */
+
+
+
+/* 中间开始 */
+main{
+	width: 100%;
+	height: calc(100% - 1.04rem);
+	background: white;
+	display: flex;
+	/* justify-content: center; */
+	flex-direction: column;
+	
+	margin-top: 1.04rem;
+	overflow: scroll;
+	margin-bottom: 0.8rem;
+}
+main .pizatu{
+	width: 100%;
+	height: 3.13rem;
+	background: red;
+}
+main .pizatu img{
+	width: 100%;
+	height: 3.13rem;
+}
+main .middle{
+	width: 100%;
+	height: 5.2rem;
+	/* background: yellow; */
+	padding: 0 0.24rem;
+	/* margin: 0 0.24rem; */
+	/* display: flex; */
+	/* justify-content: center; */
+}
+main .middle h5{
+	font-size: 0.34rem;
+	color: #f8b551;
+}
+main .middle p.one{
+	font-size: 0.28rem;
+	color: #a3a3a3;
+}
+main .middle p.two{
+	font-size: 0.34rem;
+	color: #343434;
+	padding-top: 0.44rem;
+}
+main .middle .comment{
+	width: 100%;
+	height: 0.66rem;
+	/* background: orange; */
+	margin-top: 0.44rem;
+	display: flex;
+	flex-direction: row;
+	line-height: 0.66rem;
+}
+main .middle .comment p.three{
+	font-size: 0.34rem;
+	color: #343434;
+	/* padding-top: 0.44rem; */
+	float: left;
+}
+main .comment span{
+
+	font-size: 0.16rem;
+	color: #a3a3a3;
+    padding-left: 0.56rem;
+}
+main .comment .cha{
+	width: 1.36rem;
+	height: 0.5rem;
+	background: #00b7ee;
+	border-radius: 0.5rem;
+	font-size: 0.22rem;
+	color: white;
+	text-align: center;
+	line-height: 0.5rem;
+	margin-top: 0.1rem;
+	margin-left: 0.1rem;
+}
+main .k{
+	width: 100%;
+	height: 1.5rem;
+	/* background: red; */
+	border: 0.02rem solid #00b7ee;
+	border-radius: 0.1rem;
+	display: flex;
+	flex-direction: row;
+}
+main .k .pic{
+	width: 1.42rem;
+	height: 100%;
+	/* background: orange; */
+}
+main .k .pic img{
+	width: 100%;
+	height: 100%;
+}
+main .k p.four{
+	font-size: 0.2rem;
+	color: #a3a3a3;
+	padding-top: 0.35rem;
+}
+main .middle .main-bottom{
+	width: 100%;
+	height: 12rem;
+	/* background: red; */
+}
+/* main .middle .main-bottom .bottom1{
+	width: 100%;
+	height: 3.46rem;
+	background: pink;
+} */
+main .middle .main-bottom ul{
+	width: 100%;
+	height:100%;
+	float: left;
+	/* display: block;
+	flex-direction: row; */
+}
+main .middle .main-bottom ul li{
+	width: 50%;
+	height: 3.46rem;
+	/* background: green; */
+	float: left;
+	/* border: 0.02rem solid black; */
+}
+main .middle .main-bottom ul .picture{
+	width: 2.6rem;
+	height:1.74rem;
+	/* background: yellow; */
+	margin-left: 0.455rem;
+	margin-top: 0.4rem;
+}
+main .middle .main-bottom ul .picture img{
+	width: 2.6rem;
+	height: 1.74rem;
+}
+main .middle .main-bottom ul h5.five{
+	font-size: 0.28rem;
+	color: #343434;
+	padding-left: 0.455rem;
+}
+main .middle .main-bottom .money{
+	width: 2.2rem;
+	height: 0.33rem;
+	/* background: black; */
+	display: flex;
+	flex-direction: row;
+	margin-left: 0.455rem;
+}
+main .middle .main-bottom .money .fourty{
+    width: 0.79rem;
+    height: 0.33rem;
+    /* background: pink; */
+}
+main .middle .main-bottom ul li .money p.six{
+	font-size: 0.25rem;
+	color: #f8b551;
+	/* padding-left: 0.455rem; */
+}
+
+/* main .middle .main-bottom .zhe{
+	width: 0.92rem;
+	height: 0.33rem;
+	background: red;
+} */
+main .middle .main-bottom .money .zhe1{
+    width: 0.33rem;
+    height: 0.33rem;
+    background:#00b7ee ;
+    border-top-left-radius:0.1rem; 
+    border-bottom-right-radius:0.1rem;
+    margin-left: 0.26rem;
+    font-size: 0.24rem;
+    color: white;
+    text-align: center;
+}
+main .middle .main-bottom .money span{
+	width: 0.7rem;
+	height: 100%;
+	/* background: blue; */
+	font-size: 0.18rem;
+	color: #00b7ee;
+	display: block;
+	line-height: 0.33rem;
+	padding-left: 0.05rem;
+}
+/* 中间结束 */
+
+
+/* 底部开始 */
+/*底部开始 */
+footer{
+	width: 100%;
+	height: 0.8rem;
+	background:white;
+	bottom: 0;
+	left: 0; 
+	position: fixed;
+	display: flex;
+	justify-content: center;
+
+}
+footer .catcar{
+	width:7.03rem ;
+	height: 0.8rem;
+	/* padding: 0 0.24rem; */
+	background:#3d3d3d;
+	border-radius: 0.1rem;
+	/* font-size: 0.28rem;
+	line-height: 0.8rem;
+	text-align: left; */
+
+}
+footer .car img{
+	width: 0.75rem;
+	height: 0.75rem;
+	position: fixed;
+	left: 0.63rem;
+	bottom: 0.43rem;
+}
+footer .catcar-list2{
+	width: 1.9rem;
+	height: 0.8rem;
+	background: #4c4c4c;
+	border-radius: 0.1rem;
+	/* margin-left: 3.88rem; */
+	font-size: 0.28rem;
+	line-height: 0.8rem;
+	text-align: center;
+	color: white;
+	float: right;
+	/* margin-left: 0.3rem; */
+
+}
+
+footer .catcar-list1{
+	width: 3rem;
+	height: 100%;
+	background: #3d3d3d;
+	font-size: 0.12rem;
+	/* line-height: 0.22rem; */
+	text-align: center;
+	float: left;
+	margin-left: 1.2rem;
+	color: white;
+	padding-left: 0.07rem;
+}
+
+/* 底部结束 */
+/* 底部结束 */

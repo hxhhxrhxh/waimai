@@ -1,0 +1,345 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-11 16:53:36
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-16 21:33:10
+*/
+*{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		box-sizing: border-box;
+		font-family:"微软雅黑","苹方";
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 6.29rem;
+	background: #00b7ee;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+header .content{
+	width: 7.02rem;
+	height: 100%;
+	/* background: black; */
+	/* padding: 0 0.24rem; */
+}
+header .content .top{
+	width: 7.02rem;
+	height: 100%;
+	/* background: red; */
+}
+header .content .top .return{
+	width:0.46rem;
+	height: 0.88rem;
+	/* background: pink; */
+}
+header .content .top .return img{
+	width: 0.46rem;
+	height: 0.46rem;
+	margin-bottom: 0.2rem;
+
+}
+header .content .top .order{
+	width: 2.38rem;
+	height: 0.41rem;
+	/* background: red; */
+	display: flex;
+	flex-direction: row;
+}
+
+header .content .top .order .ding{
+	width: 1.44rem;
+	height: 100%;
+	/* background: yellow; */
+	font-size: 0.28rem;
+	color: white;
+}
+/* header .content .top .order .yuan{
+	width: 0.94rem;
+	height: 100%;
+	border-radius: 0.01rem;
+	border: 0.02rem solid white;
+} */
+header .content .top .order .company{
+	width: 0.94rem;
+	height: 100%;
+	/* background: orange; */
+	border-radius: 0.2rem;
+	border: 0.02rem solid white;
+	font-size: 0.2rem;
+	color: white;
+	text-align: center;
+	text-align: center;
+}
+header .content .top .address{
+	width: 3.72rem;
+	height: 0.55rem;
+	/* background:blue; */
+	font-size: 0.38rem;
+	color: white;
+}
+header .content .top .name{
+	width: 4.48rem;
+	height: 0.5rem;
+	/* background: pink; */
+	font-size: 0.28rem;
+	color: white;
+}
+header .content .top .big{
+	width: 100%;
+	height: 2.46rem;
+	background: white;
+	margin-top: 0.31rem;
+	display: flex;
+	flex-direction:column;
+}
+header .content .top .big .up{
+	width: 100%;
+	height: 0.94rem;
+	/* background: yellow; */
+	display: flex;
+	flex-direction: row;
+}
+header .content .top .big .up .song{ 
+	width: 1.86rem;
+	height: 0.94rem;
+	/* background:red; */
+	font-size: 0.34rem;
+	color: #585858;
+	line-height: 0.94rem;
+}
+header .content .top .big .up .jin{
+	width: calc(100% - 1.86rem);
+	height: 0.94rem;
+	/* background: orange; */
+	font-size: 0.34rem;
+	color: #f8b551;
+	line-height: 0.94rem;
+}
+header .content .top .big .zhun{
+	width: 100%;
+	height: 0.3rem;
+	/* background: yellow; */
+	font-size: 0.16rem;
+	color: #f8b551;
+}
+header .content .top .big h6{
+	font-size: 0.12rem;
+	color: #e7e7e7;
+}
+header .content .top .big .zhi{
+	width: 100%;
+	height: 0.56rem;
+	/* background: pink; */
+	display: flex;
+	justify-content: space-between; 
+}
+header .content .top .big .zhi .zhi1{
+    font-size: 0.34rem;
+	color: #585858;
+	line-height: 0.56rem;
+}
+header .content .top .big .zhi .zhi2{
+	font-size: 0.34rem;
+	color: #f8b551;
+	line-height: 0.56rem;
+
+}
+
+header .content .top .small{
+	width: 100%;
+	height: 0.89rem;
+	margin-top: 0.3rem;
+	background: white;
+	font-size: 0.5rem;
+	color: #585858;
+	line-height: 0.95rem;
+	font-weight: bold;
+}
+/* 头部结束 */
+
+
+/* 中部开始 */
+main{
+	width: 100%;
+	height: 9.6rem;
+	/* background: pink; */
+	margin-top: 6.29rem;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1.02rem;
+
+}
+main .middle{
+    width: 7.02rem;
+    height: 100%;
+    /* background: blue; */
+}
+main .middle h5{
+	font-size: 0.28rem;
+	color: #e7e7e7;
+}
+main .middle .hot ul li{
+    width: 100%;
+    height: 1.3rem;
+    /* background: green; */
+    display: flex;
+    flex-direction: row;
+}
+main .middle .hot ul li .xin{
+	width: 1.2rem;
+	height: 100%;
+	/* background: pink; */
+}
+main .middle .hot ul li .xin img{
+	width: 1.18rem;
+	height: 0.74rem;
+}
+main .middle .hot ul li .xin-right{
+	width: calc(100% - 1.2rem);
+	height: 100%;
+	/* background: blue; */
+	display: flex;
+	justify-content: space-between;
+}
+main .middle .hot ul li .xin-right p{
+	line-height: 1.3rem; 
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #5a5a5a;
+}
+main .middle .hot ul li .xin-right .chen{
+	width: 0.72rem;
+	height:100%;
+	/* background: red; */
+}
+main .middle .hot ul li .xin-right .chen img{
+	width: 100%;
+	height: 100%;
+}
+main .middle .hot ul li .xin-right .RMB{
+	width: 1.35rem;
+	height: 100%;
+	/* background: yellow; */
+}
+main .middle .hot ul li .xin-right .RMB img{
+	width: 100%;
+	height: 100%;
+}
+/* main .milddle .second{
+	width: 100%;
+	height:5.35rem;
+	background: black; 
+} */
+main .middle .red{
+	width: 100%;
+	height: 1.24rem;
+	/* background: pink; */
+	display: flex;
+	justify-content: space-between;
+}
+main .middle  .one{
+	font-size: 0.28rem;
+	color: #585858;
+	font-weight: bold;
+	line-height: 1.24rem;
+
+}
+main .middle  .two{
+	font-size: 0.28rem;
+	color: #737373;
+    line-height: 1.24rem;
+}
+main .middle .xiao{
+	width: 100%;
+	height: 1.24rem;
+	/* background: pink; */
+	display: flex;
+	justify-content: space-between;
+}
+main .middle .xiao .money{
+	width: 1.52rem;
+	height: 100%;
+	/* background: yellow; */
+}
+main .middle .xiao .money img{
+	width: 1.35rem;
+	height: 0.32rem;
+	display: block;
+	margin-top: 0.45rem;
+
+}
+main .middle .ding{
+	width: 100%;
+	height: 1.24rem;
+	/* background: pink; */
+	display: flex;
+	justify-content: space-between;
+}
+main .middle .can{
+	width: 100%;
+	height: 1.24rem;
+	/* background: pink; */
+	display: flex;
+	justify-content: space-between;
+}
+/* 中间结束 */
+
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1.02rem;
+	background: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+footer .zhong{
+	width: 7.2rem;
+	height: 100%;
+	/* background: blue; */
+	display: flex;
+	justify-content: space-between;
+}
+footer .zhong .Q{
+    width: 2.44rem;
+    height: 100%;
+    /* background: pink; */
+}
+footer .zhong .Q img{
+	width: 2.13rem;
+	height:0.34rem ;
+	display: block;
+	margin-top: 0.3rem;
+}
+footer .zhong .fu{
+    width: 2.06rem;
+    height: 0.71rem;
+    background: #f8b551;
+    border-radius: 0.5rem;
+    font-size: 0.28rem;
+    color: white;
+    margin-top: 0.17rem;
+    font-weight:bold;
+    text-align: center;
+    line-height: 0.71rem;
+}
+/* 底部结束 */

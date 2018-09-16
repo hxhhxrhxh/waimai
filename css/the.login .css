@@ -1,0 +1,184 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-13 22:14:28
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-14 00:16:54
+*/
+*{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		box-sizing: border-box;
+		font-family:"微软雅黑","苹方";
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+}
+
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 1296px;
+	background:white;
+}
+header .head{
+	width: 100%;
+	height: 5.64rem;
+
+	/* background-image: url('../img/52.png'); */
+	/* background-repeat: no-repeat; */
+}
+header .head img{
+	width: 100%;
+	height: 100%;
+}
+header .set{
+	width: 2.4rem;
+	height: 0.8rem;
+	background: #fff;
+	margin: 0.5rem auto 1.8rem;
+	border-radius: 0.5rem;
+	font-size: 0.32rem;
+	color: #f8b551;
+	text-align: center;
+	line-height: 0.8rem;
+	position: fixed;
+	top: 0.2rem;
+	right: 0.2rem;
+}
+header .pic{
+	width: 2.61rem;
+	height:2.61rem;
+	/* background: yellow; */
+	border-radius: 50%;
+	position: fixed;
+	top:4.3rem ;
+	left:2.44rem;
+	background-image: url('../img/53.png');
+	background-size: cover;
+}
+
+header .name{
+	width: 4.84rem;
+	height: 0.71rem;
+	/* background: yellow; */
+	/* margin-top: 1.3rem; */
+	margin: 1.8rem auto 0;
+	display: flex;
+	flex-direction: row;
+}
+header .name .name-pic{
+	width: 0.71rem;
+	height: 100%;
+	/* background: red; */
+}
+header .name .name-pic img{
+	width: 0.71rem;
+	height: 0.71rem;
+	display: block;
+}
+header .name .name-list{
+	width: 3.96rem;
+	height: 100%;
+	background: #f4f4f4;
+	/* background: grey; */
+	margin-left: 0.19rem;
+	border-radius: 0.5rem;
+}
+header .name .name-list input{
+	float: left;
+	width:3.8rem;
+	height: 0.7rem;
+	margin-left: 0.16rem;
+	outline: none;
+	border: none;
+	background: none;
+	/* border-radius: 0.5rem; */
+}
+
+header .password{
+	width: 4.84rem;
+	height: 0.71rem;
+	/* background: yellow; */
+	/* margin-top: 1.3rem; */
+	margin: 0.6rem auto 0.2rem;
+	display: flex;
+	flex-direction: row;
+}
+header .password .password-pic{
+	width: 0.71rem;
+	height: 100%;
+	/* background: red; */
+}
+header .password .password-pic img{
+	width: 0.71rem;
+	height: 0.71rem;
+	display: block;
+}
+header .password .password-list{
+	width: 3.96rem;
+	height: 100%;
+	background: #f4f4f4;
+	/* background: grey; */
+	margin-left: 0.19rem;
+	border-radius: 0.5rem;
+}
+header .password .password-list input{
+	float: left;
+	width:3.8rem;
+	height: 0.7rem;
+	margin-left: 0.16rem;
+	outline: none;
+	border: none;
+	background: none;
+	/* border-radius: 0.5rem; */
+}
+
+header .forget{
+	width: 4.84rem;
+	height: 0.71rem;
+	/* background: yellow; */
+	margin: 0.6rem auto 0.2rem;
+	display: flex;
+	flex-direction: row;
+}
+header .forget .forget-pic{
+	width: 0.71rem;
+	height: 0.71rem;
+	/* background: red; */
+}
+header .forget .forget-pic img{
+	width: 0.71rem;
+	height: 0.71rem;
+	display: block;
+}
+header .forget .forget-list{
+	width: 3.96rem;
+	height: 100%;
+	/* background: green; */
+	margin-left: 0.19rem;
+	font-size: 0.28rem;
+	color: #00b7ee;
+	line-height: 0.71rem;
+}
+
+header .login{
+	width: 2.4rem;
+	height: 0.8rem;
+	background:#f8b551;
+	margin: 0.5rem auto 1.8rem;
+	border-radius: 0.5rem;
+	font-size: 0.32rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.8rem;
+}

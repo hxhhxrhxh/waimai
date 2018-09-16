@@ -1,0 +1,324 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-12 17:31:16
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-12 19:30:38
+*/
+*{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		box-sizing: border-box;
+		font-family:"微软雅黑","苹方";
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+}
+
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 1.04rem;
+	background: #00b7ee;
+	/* display: flex; */
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* justify-content: center; */
+
+}
+header .header-main{
+	width: 100%;
+	height:0.72rem;
+	/* background: pink; */
+	/* display: flex;
+	justify-content: center; */
+	padding: 0 0.24rem;
+}
+header .header-main img{
+	width: 0.32rem;
+	height: 0.32rem;
+	float: left;
+	/* margin-top: 0.3rem; */
+}
+header .header-main .top1{
+	width: 7.02rem;
+	height: 0.72rem;
+    /* padding: 0 0.24rem; */
+    /* background: blue; */
+    background: #00b7ee;
+    display: flex;
+    flex-direction: row;
+}
+header .header-main .top1 .top-return{
+	width:0.41rem ;
+	height: 0.72rem;
+	/* background: red; */
+	background: #00b7ee;
+	margin-top:0.3rem;
+	/* float: left; */
+}
+
+/* header .header-main .top1 .top-search{
+    width:0.41rem ;
+	height: 0.72rem;
+	
+	background:#00b7ee;
+	
+	
+} */
+header .header-main .top1 .sp{
+	width: calc(100% - 0.15rem);
+	height: 100%;
+	/* background: yellow; */
+	/* margin-top: 0.2rem; */
+}
+header .header-main .top1 .sp img{
+	width:6.07rem;
+	height: 0.88rem;
+	display: block;
+	margin-top: 0.1rem;
+
+}
+header .header-main .top1 .top-link{
+	width:0.41rem ;
+	height: 0.72rem;
+	/* background: red; */
+	margin-top:0.3rem;
+	/* background:#00b7ee; */
+	/* float: left; */
+}
+/* 头部结束 */
+
+
+/* 中间开始 */
+main{
+	width: 100%;
+	height: calc(100% - 1.04rem);
+	background:white;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	margin-top: 1.04rem;
+	overflow: scroll;
+}
+main .middle{
+	width: 7.02rem;
+	height: 100%;
+	/* background: white; */
+	margin: 0 auto;
+}
+main .middle .accept{
+	width: 100%;
+	height: 2.76rem;
+	background: white;
+	display: flex;
+	flex-direction: row;
+	border-radius: 0.1rem;
+	box-shadow:0 0.02rem 0.25rem 0.01rem #f8b551
+}
+main .middle .accept .accept-pic{
+	width: 2.33rem;
+	height: 100%;
+	/* background: red; */
+}
+main .middle .accept .accept-pic img{
+	width: 2.07rem;
+	height:2.23rem;
+	display: block;
+	margin-top: 0.23rem;
+	margin-left: 0.26rem;
+
+}
+main .middle .accept .accept-list{
+	width: 2.86rem;
+	height: 100%;
+    /* background: blue; */
+    display: flex;
+	flex-direction:column;
+}
+main .middle .accept .accept-list .RMB{
+	width: 100%;
+	height: 0.5rem;
+	/* background: green; */
+	margin-top: 0.6rem;
+}   
+main .middle .accept .accept-list .RMB img{
+	width: 2.2rem;
+	height: 0.3rem;
+	display: block;
+	margin-top:0.1rem;
+	margin-left: 0.55rem;
+}
+main .middle .accept .accept-list p.one{
+	font-size: 0.28rem;
+	color: #f8b551;
+	padding-left: 0.72rem;
+}
+main .middle .zhi .word{
+	width: 100%;
+	height: 0.45rem;
+	/* background: blue; */
+	margin-top: 0.67rem;
+	display: flex;
+	flex-direction:row;
+}
+main .middle .zhi h5{
+	font-size: 0.28rem;
+	color: #3a414a;
+	text-align: center;
+	line-height: 0.45rem;
+	padding-left: 2.72rem;
+}
+main .middle .zhi .word .zhi-list{
+	width: 0.45rem;
+	height: 0.45rem;
+	/* background: red; */
+}
+main .middle .zhi .word .zhi-list img{
+	width: 0.45rem;
+	height: 0.45rem;
+	display: block;
+}
+main .middle .success{
+	width: 100%;
+	height: 0.35rem;
+	background: white;
+}
+main .middle .success p.two{
+	font-size: 0.28rem;
+	color: #f8b551;
+	text-align: center;
+}
+main .middle .continue{
+	width: 100%;
+	height: 0.75rem;
+	/* background: red; */
+	margin-top: 0.6rem;
+	display: flex;
+	flex-direction:row;
+
+}
+main .middle .continue .fanhui{
+	width: 2.46rem;
+	height: 100%;
+	background: #f8b551;
+	border-radius: 0.5rem;
+	margin-left: 0.88rem;
+	font-size: 0.34rem;
+	color: white;
+	text-align: center;
+	line-height: 0.75rem;
+}
+main .middle .continue .jixu{
+	width: 2.46rem;
+	height: 100%;
+	background: #f8b551;
+	border-radius: 0.5rem;
+	margin-left: 0.41rem;
+	font-size: 0.34rem;
+	color: white;
+	text-align: center;
+	line-height: 0.75rem;
+}
+
+
+
+
+main .middle p.tuijian{
+	font-size: 0.34rem;
+	color: #343434;
+	padding-top: 0.44rem;
+}
+main .middle .main-bottom{
+	width: 100%;
+	height: 10rem;
+	background: white;
+	
+}
+
+
+main .middle .main-bottom ul{
+	width: 100%;
+	height:100%;
+	float: left;
+	
+}
+main .middle .main-bottom ul li{
+	width: 50%;
+	height: 3.46rem;
+	
+	float: left;
+	
+}
+main .middle .main-bottom ul .picture{
+	width: 2.6rem;
+	height:1.74rem;
+	
+	margin-left: 0.455rem;
+	margin-top: 0.4rem;
+}
+main .middle .main-bottom ul .picture img{
+	width: 2.6rem;
+	height: 1.74rem;
+}
+main .middle .main-bottom ul h5.five{
+	font-size: 0.28rem;
+	color: #343434;
+	padding-left: 0.455rem;
+}
+main .middle .main-bottom .money{
+	width: 2.2rem;
+	height: 0.33rem;
+	
+	display: flex;
+	flex-direction: row;
+	margin-left: 0.455rem;
+}
+main .middle .main-bottom .money .fourty{
+    width: 0.79rem;
+    height: 0.33rem;
+    
+}
+main .middle .main-bottom ul li .money p.six{
+	font-size: 0.25rem;
+	color: #f8b551;
+	
+}
+
+
+main .middle .main-bottom .money .zhe1{
+    width: 0.33rem;
+    height: 0.33rem;
+    background:#00b7ee ;
+    border-top-left-radius:0.1rem; 
+    border-bottom-right-radius:0.1rem;
+    margin-left: 0.26rem;
+    font-size: 0.24rem;
+    color: white;
+    text-align: center;
+}
+main .middle .main-bottom .money span{
+	width: 0.7rem;
+	height: 100%;
+	
+	font-size: 0.18rem;
+	color: #00b7ee;
+	display: block;
+	line-height: 0.33rem;
+	padding-left: 0.05rem;
+}
+
+/* 中间结束 
+
+/* 底部开始 */
+/* 底部结束 */

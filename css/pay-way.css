@@ -1,0 +1,295 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-10 22:33:42
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-11 09:59:07
+*/
+*{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		box-sizing: border-box;
+		font-family:"微软雅黑","苹方";
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 6.27rem;
+	background: #00b7ee;
+	display: flex;
+	justify-content: center;
+}
+.content{
+	width: 7.02rem;
+	height: 100%;
+	/* background: black; */
+	/* padding: 0 0.24rem; */
+}
+header .content .top{
+	width: 7.02rem;
+	height: 100%;
+	/* background: red; */
+}
+header .content .top .return{
+	width:0.46rem;
+	height: 0.88rem;
+	/* background: pink; */
+}
+header .content .top .return img{
+	width: 0.46rem;
+	height: 0.46rem;
+	margin-bottom: 0.2rem;
+
+}
+header .content .top .order{
+	width: 2.38rem;
+	height: 0.41rem;
+	/* background: red; */
+	display: flex;
+	flex-direction: row;
+}
+
+header .content .top .order .ding{
+	width: 1.44rem;
+	height: 100%;
+	/* background: yellow; */
+	font-size: 0.28rem;
+	color: white;
+}
+/* header .content .top .order .yuan{
+	width: 0.94rem;
+	height: 100%;
+	border-radius: 0.01rem;
+	border: 0.02rem solid white;
+} */
+header .content .top .order .company{
+	width: 0.94rem;
+	height: 100%;
+	/* background: orange; */
+	border-radius: 0.2rem;
+	border: 0.02rem solid white;
+	font-size: 0.2rem;
+	color: white;
+	text-align: center;
+	text-align: center;
+}
+header .content .top .address{
+	width: 3.72rem;
+	height: 0.55rem;
+	/* background:blue; */
+	font-size: 0.38rem;
+	color: white;
+}
+header .content .top .name{
+	width: 4.48rem;
+	height: 0.5rem;
+	/* background: pink; */
+	font-size: 0.28rem;
+	color: white;
+}
+/* 头部结束 */
+/* 中间开始 */
+main{
+    width: 100%;
+    height: calc(100% - 6.27rem);
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+main .big{
+	width: 6.83rem;
+	height: 11rem;
+	background:#f7f7f7;
+	/* padding: 0 0.44rem; */
+	position: fixed;
+	top: 2.3rem;
+	border-radius: 0.1rem;
+}
+main .big .out{
+	width: 100%;
+	height: 3.41rem;
+	/* background: pink; */
+	border-radius: 0.1rem;
+	border-top: 0.1rem solid #f8b551;
+	
+
+}
+main .big .out .di{
+	width:100% ;
+	height:0.4rem ;
+	/* background: orange; */
+	margin-top: 0.51rem;
+	font-size: 0.28rem;
+	color: #5d5d5d;
+	text-align: center;
+}
+main .big .out .en{
+	width:100% ;
+	height:0.4rem ;
+	/* background: yellow; */
+	font-size: 0.28rem;
+	color: #b3b3b3;
+	text-align: center;
+}
+main .big .out .pay{
+    width: 5.91rem;
+    height: 1.12rem;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
+}
+
+main .big .out .wei img{
+	width: 2.76rem;
+	height: 100%;
+	margin-top: 0.34rem;
+	margin-left: 0.4rem;
+}
+main .big .out .zhi img{
+	width: 2.76rem;
+	height:100%;
+	margin-top: 0.34rem;
+	margin-left: 0.4rem;
+}
+main .big .out .point{
+	width: 0.4rem;
+	height: 0.14rem;
+	display: flex;
+    flex-direction: row;
+    margin-top: 0.6rem;
+    margin-left: 3.2rem;
+}
+main .big .out .point .point-left{
+    width: 0.22rem;
+    height: 100%;
+    background:#f8b551;
+    border-radius: 0.1rem; 
+}
+main .big .out .point .point-right{
+	width: 0.14rem;
+    height:0.14rem;
+    background:#f8b551;
+    border-radius: 50%;
+    margin-left: 0.05rem;
+}
+main .big .out .dian h5{
+    font-size: 0.28rem;
+    color: #b2b2b2;
+}
+
+/* 中间结束 */
+/* 底部开始 */
+
+main .big .out .qi{
+	width:100% ;
+	height:0.4rem ;
+	/* background: orange; */
+	margin-top: 0.51rem;
+	font-size: 0.28rem;
+	color: #5d5d5d;
+	text-align: center;
+}
+main .big .out .eng{
+	width:100% ;
+	height:0.4rem ;
+	/* background: yellow; */
+	font-size: 0.28rem;
+	color: #b3b3b3;
+	text-align: center;
+}
+main .big .out .card{
+	width: 6.17rem;
+	height: 1.15rem;
+	background: white;
+	margin-top: 0.3rem;
+	margin-left: 0.24rem;
+	border-radius: 0.1rem;
+	display: flex;
+	flex-direction: row;
+
+	/* padding: 0 0.24rem; */
+}
+main .big .out .card .tu{
+	width: 0.66rem;
+	height: 0.66rem;
+	/* background: blue; */
+	margin-top: 0.23rem;
+}
+main .big .out .card .xuanze{
+	width: 4.5rem;
+	height: 0.66rem;
+	/* background: pink; */
+	margin-top: 0.23rem;
+}
+main .big .out .card .xuan{
+	width: 2.3rem;
+	height: 0.35rem;
+	/* background: red; */
+	font-size: 0.28rem;
+	color: #9e9e9e;
+}
+main .big .out .card .shi{
+	width: 4.5rem;
+	height: 0.35rem;
+	/* background: green; */
+	font-size: 0.12rem;
+	color: #b5b1b1;
+}
+main .big .out .card .san{
+	width: 0.66rem;
+	height: 0.66rem;
+	border-radius: 50%;
+	background:  #f8b551;
+	margin-top: 0.23rem;
+	font-size: 0.34rem;
+	text-align: center;
+	line-height: 0.66rem;
+	color: white;
+}
+main .big .out .card .shu{
+	width: 0.1rem;
+	height: 0.9rem;
+	background: #f8b551 ;
+	margin-top: 0.2rem;
+	margin-left: 0.5rem;
+}
+
+main .big .out .queren{
+	width: 6.17rem;
+	height: 0.78rem;
+	background:  #f8b551;
+	margin-left: 0.24rem;
+	margin-top: 0.3rem;
+	border-radius: 0.5rem;
+	
+	
+}
+main .big .out .queren .one{
+	font-size: 0.34rem;
+	color: white;
+	text-align: center;
+
+}
+main .big .out .queren .two{
+	font-size: 0.14rem;
+	color: white;
+	text-align: center;
+
+}
+
+
+
+
+
+/* 底部结束 */

@@ -1,0 +1,342 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-12 13:47:02
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-16 19:15:06
+*/
+*{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		box-sizing: border-box;
+		font-family:"微软雅黑","苹方";
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.97rem;
+	background: #00b7ee;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+header .head{
+	width: 7rem;
+	height: 100%;
+	/* background: yellow; */
+	display: flex;
+	flex-direction: row;
+
+}
+header .head .page{
+	width: 6.45rem;
+	height: 100%;
+	background: #00b7ee;
+
+}
+header .head .page img{
+	width: 6.45rem;
+	height: 100%;
+	display: block;
+	/* margin-top: 0.05rem; */
+}
+header .head .search{
+	width: 0.59rem;
+	height: 100%;
+	/* background: blue; */
+}
+header .head .search img{
+	width: 0.36rem;
+	height: 0.36rem;
+	display: block;
+	margin-top: 0.32rem;
+}
+/* 头部结束 */
+
+.top{
+	width: 100%;
+	height: 4.38rem;
+	/* background: yellow; */
+	padding: 0 0.24rem;
+	margin-top: 0.97rem;
+
+}
+.top .tui img{
+	width: 7rem;
+	height: 0.76rem;
+	display: block;
+}
+.top ul{
+	width: 100%;
+	height: 2.5rem;
+	display: flex;
+	flex-direction: row;
+    margin-top: 0.1rem;
+}
+.top ul li{
+	width: 2.3rem;
+	height: 2.38rem;
+	/* background: red; */
+	margin-right: 0.34rem;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 0.1rem 0.01rem #00b7ee;
+}
+.top ul li .pic{
+   width:2.24rem;
+   height: 2.38rem;
+   /* background:yellow;  */
+}
+.top ul li .pic img{
+	width: 1.65rem;
+	height: 1.87rem;
+	display: block;
+	margin-left: 0.27rem;
+	margin-top: 0.25rem;
+	/* margin-top: 0.27rem; */
+}
+.top .big .jing{
+   width:100%;
+   height: 0.54rem;
+   /* background:pink;  */
+   
+}
+.top .big .jing p{
+   font-size: 0.28rem;
+   color: #585858;
+   text-align: center;
+   line-height: 0.54rem;
+}
+
+.top .big .Q{
+	width: 100%;
+	height: 0.72rem;
+	/* background: blue; */
+	display: flex;
+	flex-direction: row;
+}
+.top .big .Q .money{
+   width:1.5rem;
+   height:100%;
+   background:white; 
+   font-size: 0.28rem;
+   color: #f8b551;
+   text-align: center;
+   line-height: 0.72rem;
+}
+.top  .big .Q .money span{
+    font-size: 0.38rem;
+    color: #f8b551;
+    text-align: center;
+   line-height: 0.72rem;
+}
+.top  .big .Q .car{
+   width:0.7rem;
+   height:100%;
+   /* background:yellow;  */
+}
+.top  .big .Q .car img{
+	width: 0.48rem;
+	height: 0.48rem;
+	display: block;
+	margin-top: 0.14rem;
+	margin-left: 0.12rem;
+}
+.top .large{
+	width: 0.7rem;
+	height: 1.2rem;
+	/* background: pink; */
+	display: flex;
+	flex-direction: row;
+
+}
+ .top .big{
+	width: 2.24rem;
+	height:1.2rem;
+	/* background: blue; */
+	display: flex;
+	flex-direction:column;
+	margin-right: 0.34rem;
+}
+/* 中间开始 */
+main{
+	width: 100%;
+	height: 6.26rem;
+	/* background:red; */
+	/* display: flex;
+	justify-content: center; */
+	padding: 0 0.24rem;
+}
+main .middle{
+	width: 100%;
+	height: 100%;
+	/* background: yellow; */
+}
+main .middle .history{
+	width: 7.02rem;
+	height: 0.76rem;
+	margin-top: 0.3rem;
+    /* background: green; */
+}
+main .middle .history img{
+	width: 100%;
+	height: 0.76rem;
+	display: block;
+}
+main .middle .ao{
+	width:7.02rem;
+	height:4.67rem;
+	/* background: red; */
+}
+main .middle .ao ul{
+	display: flex;
+	flex-direction:column;
+}
+main .middle .ao ul li{
+	width: 100%;
+	height: 1.5rem;
+	/* background: green; */
+	margin-top: 0.17rem;
+	border-radius: 0.1rem;
+	display: flex;
+	flex-direction: row;
+	font-size: 0.28rem;
+	color: #f8b551;
+	box-shadow: 0 0 0.1rem 0.01rem #00b7ee;
+}
+main .middle .ao ul li .pic-ao{
+	width: 1.42rem;
+	height: 100%;
+	/* background: pink; */
+	border-radius: 0.1rem;
+}
+main .middle .ao ul li .pic-ao img{
+	width: 1.42rem;
+	height: 100%;
+}
+main .middle .ao ul li .aoer{
+	width: 1.94rem;
+	height: 100%;
+	/* background: yellow; */
+	/* border-radius: 0.1rem; */
+}
+main .middle .ao ul li .aoer h5{
+	font-size: 0.28rem;
+	color: #333;
+}
+main .middle .ao ul li .aoer h4{
+	font-size: 0.12rem;
+	color: #c8c8c8;
+}
+main .middle .ao ul li .aoer p{
+	font-size: 0.28rem;
+	color: #585858;
+}
+main .middle .ao ul li .aoer span{
+	font-size: 0.34rem;
+	color: #f8b551;
+}
+
+main .middle .ao ul li .ping{
+	width: 3.68rem;
+	height: 100%;
+	/* background: pink; */
+	border-radius: 0.1rem;
+}
+main .middle .ao ul li .ping .jia{
+	width: 1.62rem;
+	height: 0.54rem;
+	background:white;
+	margin-left: 1.33rem;
+	margin-top: 0.16rem;
+	border-radius: 0.5rem;
+	text-align: center;
+	line-height: 0.54rem;
+	box-shadow: 0.03rem 0.03rem 0.1rem 0.03rem #f8b551;
+}
+main .middle .ao ul li .ping .agin{
+	width: 1.62rem;
+	height: 0.54rem;
+	background:white;
+	margin-left: 1.33rem;
+	margin-top: 0.05rem;
+	border-radius: 0.5rem;
+	text-align: center;
+	line-height: 0.54rem;
+	box-shadow: 0.03rem 0.03rem 0.1rem 0.03rem #f8b551;
+}
+/* 中间结束 */
+
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1.32rem;
+	display: flex;
+    justify-content: center;
+	position: relative;
+}
+footer .bottom{
+	width: 7rem;
+	height: 1.32rem;
+	/* background: blue; */
+	display: flex;
+    justify-content: center;
+    box-shadow: 0.03rem 0.03rem 0.1rem 0.03rem #00b7ee;
+    background: white;
+    padding: 0 0.24rem;
+    position: fixed;
+    bottom: 0;
+    left: 0.24rem;
+
+}
+
+footer .bottom ul{
+	width: 7rem;
+	height: 1.32rem;
+	/* background: yellow; */
+    display: flex;
+    justify-content: center;
+    /* padding: 0 0.24rem; */
+}
+
+footer .bottom ul li{
+      width: 25%;
+    height: 1.32rem;
+    /* background: red; */
+    /* border: 0.01rem solid black; */
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+footer .bottom ul li a{
+	display: block;
+}
+footer .dingdan{
+	width: 100%;
+    height: 1.32rem;
+}
+footer .bottom ul li img{
+	width: 0.38rem;
+	height: 0.4rem;
+	display: block;
+	margin-left: 0.05rem;
+}
+footer .bottom ul li h5{
+	padding-top: 0.15rem;
+    color:#747474;
+	font-size: 0.24rem;
+}
+/* 底部结束 */

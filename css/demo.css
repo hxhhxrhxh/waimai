@@ -1,0 +1,427 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-08 09:00:16
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-09-16 09:52:03
+*/
+*{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		box-sizing: border-box;
+		font-family:"微软雅黑","苹方";
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 1.03rem;
+	background: #00b7ee;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+header .pos{
+	width: 1.32rem;
+	height:1.03rem ;
+    /* background: blue; */
+    float: left;
+    font-size: 0.28rem;
+    color:white ;
+    text-align: center;
+    line-height:1.03rem ;
+}
+header input{
+	width: 4.89rem;
+	height: 0.31rem;
+	float: left;
+	/* background-image:url('../img/');
+	background-repeat: no-repeat;
+	background-size: ;
+	background-position:0.11rem center ;
+ */
+	background-color: white;
+	border-radius:0.15rem;
+	border: none;
+	margin: 0.36rem 0 ;
+	padding-left: 0.32rem; 
+	color: red;
+	font-size: 0.2rem;
+	outline: none;
+	color: red;
+}
+/* 改变input中提示性文字样式 */
+input::-webkit-input-placeholder{
+    color:#ebeae9;
+    font-size: 0.2rem;
+}
+header .code{
+	width: 0.52rem;
+	height:  0.5rem;
+	/* background: orange; */
+	float: right;
+    margin: 0.26rem 0.38rem;
+    background-image: url('../img/1.png');
+    background-size: 0.52rem 0.52rem;   	
+}
+/* .banner{
+	width: 100%;
+	height: 4.57rem;
+	background: blue;
+	display: flex;
+   justify-content: center;
+   margin-top: 1.03rem;
+}
+.banner .banner-list{
+   width: 100%;
+   height: 4.57rem;
+   background: yellow;
+  
+   display: flex;
+   justify-content: center;
+}
+.banner .banner-list img{
+   width: 100%;
+   height: 4.57rem;
+} */
+
+.swiper-container{
+	width: 100%;
+	height: 4.57rem;
+	/* background: blue; */
+	/* display: flex; */
+   /* justify-content: center; */
+   margin-top: 1.03rem;
+}
+.swiper-container .swiper-wrapper{
+   width: 100%;
+   height: 4.57rem;
+   /* margin-top: 1.03rem; */
+   /* background: yellow; */
+  
+   /* display: flex; */
+   /* justify-content: center; */
+}
+.swiper-container .swiper-wrapper .swiper-slide img{
+   width: 100%;
+   height:100%;
+}
+
+
+nav{
+	width: 100%;
+	height: 4.2rem;
+	/* background: pink; */
+	padding: 0 0.24rem;
+}
+nav main{
+	width: 7.01rem;
+	height: 4.2rem;
+	/* background: orange; */
+
+}
+nav main ul{
+	width: 7.01rem;
+	height:1.78rem;
+	display: flex;
+	align-content: space-between;
+	flex-wrap:wrap;
+	padding-top: 0.4rem;
+
+}
+nav main ul li{
+	width: 25%;
+	height: 1.68rem;
+	/* background: yellow; */
+	/* border: 0.01px solid #000; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	 
+}
+nav main ul li img{
+    width: 1.23rem;
+    height: 1.23rem;
+}
+nav ul li h5{
+    color:#767676;
+	font-size: 0.24rem;
+}
+
+/* 热销开始 */
+.hot{
+	width: 100%;
+	height: 1.01rem;
+	display: flex;
+	justify-content: center;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+.hot .hot-list{
+	width: 2.43rem;
+	height: 1.01rem;
+	display: flex;
+	justify-content: center;
+}
+.hot .hot-list img{
+    width: 2.43rem;
+	height: 1.01rem;
+}
+
+.popular-pic{
+	width:100%;
+	height: 4.01rem;
+	/* background: yellow; */
+	display: flex;
+	justify-content:center;
+
+	
+}
+
+.popular-pic .popular-pic-list{
+	width:6.4rem;
+	height: 4.01rem;
+	background: pink;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content:center;
+}
+.popular-pic .popular-pic-list img{
+	width:6.4rem;
+	height: 4.01rem;
+
+}
+.recommend{
+    width: 100%;
+    height: 1.14rem;
+    /* background:blue; */
+    display: flex;
+    justify-content:center;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}	
+.recommend .recommend-pic{
+    width: 2.33rem;
+	height: 1.14rem;
+	/* background: pink; */
+	display: flex;
+    justify-content:center;
+}	
+.recommend .recommend-pic img{
+    width: 2.33rem;
+	height: 1.14rem;
+}
+
+
+
+.biaoti{
+	width: 100%;
+	height: 0.5rem;
+	/* background: black; */
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	padding: 0 0.24rem;
+	display: flex; 
+	justify-content: space-around;
+
+
+}
+.biaoti .biaoti-list{
+	font-size: 0.28rem;
+	width: 1.47rem;
+	height:0.5rem ;
+	/* background: pink; */
+	text-align: center;
+	border: 0.05rem solid #00b7ee;
+	border-radius: 0.5rem;
+}
+
+/* 列表开始 */
+.list{
+	width: 100%;
+	height: ;
+	padding: 0 0.24rem;
+	/* background: blue; */
+}
+.list ul li{
+	width: 100%;
+	height: 2.97rem;
+	background: white;
+	box-shadow: 0.03rem 0.03rem 0.1rem 0.03rem #7bcef4;
+	margin-bottom: 0.84rem;
+}
+
+.list .picture{
+	width: 25%;
+	height: 100%;
+	/* background: red; */
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.list .picture .picture-list{
+	width:100%;
+	height:2rem;
+	/* background: yellow; */
+	display: flex;
+	justify-content: center;
+}
+
+.list .picture .picture-list img{
+	width:1.35rem;
+	height:2rem;
+}
+.list .content{
+	width:75%;
+	height: 100%;
+	background: white;
+    
+	float: left;
+	padding-top: 0.45rem;
+}
+.list .picture img{
+
+}
+.list .content h5{
+	font-size: 0.32rem;
+	padding-bottom: 0.05rem;
+	color: #333;
+}
+.list ul li .content .cake{
+	display: flex;
+    justify-content: space-between;
+}
+.list ul li .content .cake .word h6{
+	font-size: 0.28rem;
+	padding-bottom: 0.05rem;
+	color: #a1a1a1;
+	/* font-weight: 200; */
+}
+
+.list ul li .content .cake .km{
+	
+	font-size: 0.28rem;
+	color:  #a1a1a1;
+	/* padding-left: 0.1rem; */
+}
+.list ul li .content .des{
+	font-size: 0.28rem;
+	width: 100%;
+	/* height: 0.28rem; */
+	display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.05rem;
+}
+.list ul li .content .des .star{
+	color: yellow;
+}
+.list ul li .content .des .num{
+	color:  #a1a1a1;
+	padding-left: 0.1rem;
+}
+.list ul li .content .des .time{
+	color:  #a1a1a1;
+	/* padding-left: 0.1rem; */
+}
+.list ul li .content .song .song1{
+	font-size: 0.28rem;
+	width: 100%;
+	display: flex;
+	justify-content: start;
+	margin-bottom: 0.1rem;
+	color: #a1a1a1;
+
+}
+
+
+.list ul li .content .jian {
+	display: flex;
+	justify-content: flex-start;
+	font-size: 0.28rem;
+	color: #a1a1a1
+
+}
+.list ul li .content .jian p{
+	padding-left: 0.1rem;
+}
+.list ul li .content .jian .pic{
+	margin-top: 0.05rem;
+	width: 1rem;
+	height:0.35rem ;
+	border: 0.05rem solid #00b7ee;
+	border-radius: 10rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* 列表结束 */
+
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1.32rem;
+	display: flex;
+    justify-content: center;
+	position: relative;
+}
+footer .bottom{
+	width: 7rem;
+	height: 1.32rem;
+	/* background: blue; */
+	display: flex;
+    justify-content: center;
+    box-shadow: 0.03rem 0.03rem 0.1rem 0.03rem #00b7ee;
+    background: white;
+    padding: 0 0.24rem;
+    position: fixed;
+    bottom: 0;
+    left: 0.24rem;
+
+}
+
+footer .bottom ul{
+	width: 7rem;
+	height: 1.32rem;
+	/* background: yellow; */
+    display: flex;
+    justify-content: center;
+    /* padding: 0 0.24rem; */
+}
+
+footer .bottom ul li{
+    width: 25%;
+    height: 1.32rem;
+    /* background: red; */
+    /* border: 0.01rem solid black; */
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+footer .bottom ul li a{
+	display: block;
+}
+footer .bottom ul li img{
+	width: 0.38rem;
+	height: 0.4rem;
+	display: block;
+	margin-left: 0.05rem;
+}
+footer .bottom ul li h5{
+	padding-top: 0.15rem;
+    color:#747474;
+	font-size: 0.24rem;
+}
+/* 底部结束 */
